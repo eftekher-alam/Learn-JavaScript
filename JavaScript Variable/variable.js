@@ -27,3 +27,23 @@ if(true)
 }
 console.log("Outside the if block a : ", a);
 
+
+// Let keyword
+let b = 10;
+// let b = 100; //You can not re-define the same value like var keyword
+//var b = 10;
+
+
+/*
+    It support block scope.
+*/
+
+let name = "Eftekher Alam";
+console.log("First outside value of name is : " + name);
+if(true)
+{
+    let name = "Shuvo" //the value will remain same only inside the if block
+    document.getElementById("ok").innerHTML = "This is inside local value of name : " + name;
+}
+console.log("This is value of name last outside of the scope : " + name);
+
