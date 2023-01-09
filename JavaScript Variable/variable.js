@@ -47,3 +47,42 @@ if(true)
 }
 console.log("This is value of name last outside of the scope : " + name);
 
+
+
+let xyz = 100;
+// var xyz = 200 not allowed.
+console.log(xyz);
+if(true)
+{
+    // var xyz = 11; its not allowed because we know var keyword define global variable.
+    let xyz = 111;
+    console.log(xyz);
+}
+
+console.log(xyz);
+
+
+
+
+// const keyword
+
+//here num is constant. you cann't again assign or declare
+const num = 10;
+// num = 100; it's not allow.
+const myName = "Eftekher Alam";
+// myName = "shuvo"; //It's not possible
+
+
+// const support block scope
+if(true)
+{
+    const num = 100; //it's allowed
+}
+
+
+//we can declare array by using const keyword. Here, the memory addres will be constant. But you can change the the containt
+
+const numbers = [1, 2, 3 ,4, 5, 6 ];
+console.log(numbers);
+numbers[4] = 100; //you can change the content of your array. But the memory location  will not changed.
+console.log(numbers);
