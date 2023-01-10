@@ -28,6 +28,17 @@ if(true)
 console.log("Outside the if block a : ", a);
 
 
+// var support function scope
+function add(num1, num2)
+{
+    var output = num1 + num2;
+    document.getElementById("test").innerHTML = output;
+}
+
+add(2, 2);
+//not allowed.
+// console.log("Not possible to get result " + output); //it shouldn't access from here, because it's into function scope.
+
 // Let keyword
 let b = 10;
 // let b = 100; //You can not re-define the same value like var keyword
