@@ -16,4 +16,4 @@ Car.Start();  //We can call function like this.
 Car.Drive();
 console.log(Car.Model);
 console.log(Car["Price"]); //We can also access proparty like this.
-console.log(Car.Start);  //It will return full function body.
+console.log(Car.Drive);  //It will return full function body/Definition.
