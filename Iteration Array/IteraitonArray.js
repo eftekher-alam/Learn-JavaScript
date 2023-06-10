@@ -108,3 +108,4 @@ console.log("------> includes() <--------");
 const myfrnd = ["Eftekher", "Shuvo", "Lipi", "Manik", "Karim", "Lipi"];
 console.log(myfrnd.includes("Shuvo")); //true
 console.log(["Eftekher", "Shuvo", "Alam"].includes("Eftekher")); //true
+
