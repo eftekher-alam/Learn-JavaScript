@@ -71,3 +71,14 @@ do {
     a++;
 } while (a <= 0);
 
+
+console.log("---------> Break and continue <-----------");
+for (let i = 0; i < 10; i++) {
+    if (i % 2 == 0)
+        continue; //break only single loop 
+    if (i == 7)
+        break; //Break full loop
+    console.log("Loop for " + i);
+}
+
+
