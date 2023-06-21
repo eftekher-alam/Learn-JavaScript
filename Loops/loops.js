@@ -53,3 +53,21 @@ console.log("-------> for of Loop <--------");
 for (let x of numbers) { //return value instead of index
     console.log(x);
 }
+
+
+console.log("---------> While Loop <-----------");
+let count = 0;
+while (count < 10) {
+    console.log(count);
+    count++;
+}
+
+
+console.log("---------> Do While Loop <-----------");
+
+let a = 0
+do {
+    console.log("Print for : " + a)
+    a++;
+} while (a <= 0);
+
